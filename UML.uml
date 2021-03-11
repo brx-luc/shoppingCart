@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="32.0" y="0.0">iBuyable</node>
+    <node x="16.0" y="276.0">ShoppingList</node>
+    <node x="0.0" y="104.0">Product</node>
+    <node x="13.5" y="380.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Product" target="iBuyable">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Main" target="ShoppingList">
+      <point x="-37.25" y="-27.0" />
+      <point x="50.75" y="355.0" />
+      <point x="52.0" y="355.0" />
+      <point x="-36.0" y="27.0" />
+    </edge>
+    <edge source="ShoppingList" target="Product">
+      <point x="48.0" y="-27.0" />
+      <point x="136.0" y="251.0" />
+      <point x="146.66666666666666" y="251.0" />
+      <point x="58.66666666666666" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.694001100715465" x="1200.459159397304" y="618.3275178429818" />
+  <SelectedNodes>
+    <node>Product</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
